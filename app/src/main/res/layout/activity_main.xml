@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:custom="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <com.jian.android.customprogressbar.HorizontalProgressbar
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:padding="15dp"
+        custom:progress_reach_color="@color/colorRed"
+        custom:progress_text_color="@color/colorRed"
+        custom:progress_unreach_color="@color/colorUnReach"/>
+
+    <com.jian.android.customprogressbar.HorizontalProgressbar
+        android:id="@+id/custom_progress_bar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:padding="15dp"
+        custom:progress_reach_color="@color/colorReach"
+        custom:progress_text_color="@color/colorReach"
+        custom:progress_unreach_color="@color/colorUnReach"
+        android:progress="30"/>
+
+    <com.jian.android.customprogressbar.HorizontalProgressbar
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:padding="15dp"
+        custom:progress_reach_color="@color/colorRed"
+        custom:progress_text_color="@color/colorRed"
+        custom:progress_unreach_color="@color/colorUnReach"
+        android:progress="60"/>
+
+</LinearLayout>
